@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 33% 6%;
+    --foreground: 45 96% 50%; /* Changed to Binance yellow */
+
+    --card: 222 47% 11%;
+    --card-foreground: 45 96% 50%; /* Changed to Binance yellow */
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 45 96% 50%; /* Changed to Binance yellow */
+
+    --primary: 45 96% 50%; /* Changed to Binance yellow */
+    --primary-foreground: 222 47% 11%;
+
+    --secondary: 45 96% 50%; /* Changed to Binance yellow */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 222 47% 11%;
+    --muted-foreground: 45 96% 50%; /* Changed to Binance yellow */
+
+    --accent: 45 96% 50%; /* Changed to Binance yellow */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 45 96% 50%; /* Changed to Binance yellow */
+    --input: 45 96% 50%; /* Changed to Binance yellow */
+    --ring: 45 96% 50%; /* Changed to Binance yellow */
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@keyframes quantum-glow-slide {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes quantum-border-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 10px rgba(240, 185, 11, 0.3), 0 0 20px rgba(240, 185, 11, 0.2), 0 0 30px rgba(240, 185, 11, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(240, 185, 11, 0.4), 0 0 25px rgba(240, 185, 11, 0.3), 0 0 35px rgba(240, 185, 11, 0.2);
+  }
+}
+
+@keyframes quantum-text-glow {
+  0%,
+  100% {
+    text-shadow: 0 0 10px rgba(240, 185, 11, 0.3), 0 0 20px rgba(240, 185, 11, 0.2), 0 0 30px rgba(240, 185, 11, 0.1);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(240, 185, 11, 0.4), 0 0 25px rgba(240, 185, 11, 0.3), 0 0 35px rgba(240, 185, 11, 0.2);
+  }
+}
+
+.animate-glow-slide {
+  animation: quantum-glow-slide 3s linear infinite;
+}
+
+.animate-border-pulse {
+  animation: quantum-border-pulse 2s ease-in-out infinite;
+}
+
+.animate-text-glow {
+  animation: quantum-text-glow 2s ease-in-out infinite;
+}
+
+.animate-pulse-slow {
+  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(240, 185, 11, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(240, 185, 11, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(240, 185, 11, 0.5);
+}
+
+/* Terminal Text Selection */
+::selection {
+  background: rgba(0, 240, 255, 0.3);
+  color: #fff;
+}
+
+/* Custom Background Gradients */
+.bg-quantum-dark {
+  background: linear-gradient(to bottom, #0a1a2f, #000000);
+}
+
+.bg-quantum-card {
+  background: linear-gradient(to bottom right, rgba(10, 26, 47, 0.9), rgba(0, 0, 0, 0.9));
+}
+
+.text-quantum-glow {
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5), 0 0 20px rgba(0, 240, 255, 0.3), 0 0 30px rgba(0, 240, 255, 0.1);
+}
+
+.border-quantum {
+  border-color: rgba(0, 240, 255, 0.3);
+}
+
+.bg-quantum-gradient {
+  background: linear-gradient(45deg, #0a1a2f, #1a2a3f);
+}
+
