@@ -1,6 +1,6 @@
 # Quantum Machine 
 
-🚀 **Quantum Machine** is a cutting-edge AI-powered web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It leverages the **$Eliza Tee Framework** to provide futuristic insights into the crypto space, enabling users to explore trends, predictions, and AI-driven market analysis.
+🚀 **Quantum Machine** is a cutting-edge AI-powered web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. 
 
 ## 🔥 Features
 - **AI-Powered Crypto Predictions** – Harness the power of AI to analyze and forecast market trends.
@@ -12,7 +12,7 @@
 ## 🛠️ Tech Stack
 - **Frontend:** Next.js, TypeScript, Tailwind CSS
 - **Backend:** Integrated APIs for real-time data processing
-- **AI Framework:** $Eliza Tee Framework
+- **AI Framework:** Quantum Framework
 - **Styling:** Tailwind CSS & PostCSS
 
 ## 🚀 Getting Started
