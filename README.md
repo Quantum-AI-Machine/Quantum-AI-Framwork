@@ -1,6 +1,6 @@
-# Degen Terminal
+# Quantum Machine 
 
-🚀 **Degen Terminal** is a cutting-edge AI-powered web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It leverages the **$Eliza Tee Framework** to provide futuristic insights into the crypto space, enabling users to explore trends, predictions, and AI-driven market analysis.
+🚀 **Quantum Machine** is a cutting-edge AI-powered web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**. It leverages the **$Eliza Tee Framework** to provide futuristic insights into the crypto space, enabling users to explore trends, predictions, and AI-driven market analysis.
 
 ## 🔥 Features
 - **AI-Powered Crypto Predictions** – Harness the power of AI to analyze and forecast market trends.
@@ -18,8 +18,8 @@
 ## 🚀 Getting Started
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/degenai42/Degen-AI-Framwork.git
-cd degen-terminal
+git clone https://github.com/Quantum-AI-Machine/Degen-AI-Framwork.git
+cd ...
 ```
 
 ### 2️⃣ Install Dependencies
@@ -36,7 +36,7 @@ yarn dev  # or npm run dev
 
 ## 📂 Project Structure
 ```
-quantum-terminal/
+quantum-/
 │── app/                   # Main application logic
 │   ├── page.tsx           # Homepage component
 │   ├── globals.css        # Global styles
